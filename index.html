@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Draw your image</title>
+    <meta name="description" content="Drawing page">
+    <meta name="keywords" content="draw solution">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div id="drawing-container" class="container" style="display: none;"> </div>
+
+
+    <div id="container" class="container">
+      <div id="header" class="header">
+        <h1>Draw your image</h1>
+      </div>
+      
+      <button id="view-button" class="view-button" type="button">View all drawing</button>
+
+
+      <div id="name-input" class="name-input">
+        <label> Enter your name: </label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+      </div>
+
+      <canvas id="drawing-area" class="drawing-area" height="500" width="500"> </canvas>
+      <button id="clear-button" class="clear-button" type="button">Clear</button>
+      <button id="save-button" class="save-button" type="button">Save</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
